@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  margin: 1.618rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.header {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+.text-center{
+
+}
+
+.description {
+  font-style: italic;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+
+}
+
+.form-control {
+
+}
+
+.hint {
+
+}
+
+.input-radio,
+.input-checkbox {
+
+}
+
+.input-textbox {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.6rem;
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: green;
+}
