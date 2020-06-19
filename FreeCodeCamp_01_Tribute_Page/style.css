@@ -1,3 +1,54 @@
-<style>
+#main {
+  font-family: Helvetica, Arial;
+  text-align: center;
+  width: 100%;
+  background: #E5EBF5;
+  row-gap: 20px;
+  grid-template-rows: auto auto 1fr auto auto;
+  border-radius: 10px;
+}
 
-</style>
+#title {
+  color: #859FD1;
+  font-weight: bold;
+  margin: 10px auto none auto;
+  font-size: 4em;
+}
+
+p1 {
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+
+#img-div {
+  background-color: #131B2A;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#img-caption {
+  color: #E5EBF5;
+}
+
+#tribute-info {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+h2 {
+  text-align: center;
+}
