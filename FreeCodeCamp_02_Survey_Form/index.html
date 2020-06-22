@@ -16,7 +16,7 @@
             the time to complete this survey, please answer honestly...</p>
         </header>
 
-        <form id="surevey-form">
+        <form id="survey-form">
           <div class="form-group">
             <label id="name-label" for="name">Name</label>
             <input
@@ -49,13 +49,13 @@
               min="1"
               max="110"
               class="form-control"
-              placeholder="Enter your your age (in years)"
+              placeholder="Age"
               />
           </div>
 
           <div class="form-group">
             <p>How much time (per week) do you spend listening to music?</p>
-            <select id=dropdown name=frequency class="form-control" required>
+            <select id=dropdown name=frequency  required>
               <option disabled selected value>Select one of the following:</option>
               <option value="<1">Up to 1 hour per week</option>
               <option value="<3">Up to 3 hours per week</option>
@@ -85,7 +85,7 @@
           </div>
 
           <div class="form-group">
-            <p>What are your favourite music genres?<span class="hint">(Check
+            <p>What are your favourite music genres? <span class="hint">(Check
               all that apply)</span></p>
             <label>
               <input type="checkbox" name="genre"

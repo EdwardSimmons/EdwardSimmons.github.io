@@ -1,38 +1,43 @@
 .container {
   width: 100%;
   margin: 1.618rem auto 0 auto;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
+  background-color: rgba(155, 128, 188, 0.77)
+  padding: 1.61rem;
 }
 
 .header {
-
+  padding: 0 0.618rem;
+  margin: 1.618rem;
 }
 
 h1 {
-
+  font-size: 1.618rem;
 }
 
 h2 {
+  font-size: 2rem;
+}
 
+h1,
+h2 {
+  font-weight: bolder;
+  line-height: 1.618rem;
 }
 
 p {
+  font-size: 1.1rem;
+  color: white;
+}
 
+h1,
+h2,
+p {
+  margin-top: 0;
+  margin-bottom: 1.618rem;
 }
 
 .text-center{
-
+  text-align: center;
 }
 
 .description {
@@ -41,21 +46,35 @@ p {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-.form-group {
+form {
+  background: rgba(76, 45, 113, 0.9);
+  padding: 2.5rem 0.6rem;
+  border-radius: 0.5rem;
+}
 
+.form-group {
+  margin: 0 3rem 1.618rem 2rem;
+  padding: 0.25rem;
 }
 
 .form-control {
-
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
 }
 
 .hint {
-
+  font-weight: light;
 }
 
 .input-radio,
 .input-checkbox {
-
+  color: white;
 }
 
 .input-textbox {
@@ -66,5 +85,10 @@ p {
 }
 
 .submit-button {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  padding: 0.2rem;
   background-color: green;
+  font-size: 3rem;
 }
