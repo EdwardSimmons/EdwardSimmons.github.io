@@ -6,88 +6,98 @@
     <title>Rybko Inc. Landing Page</title>
   </head>
   <body>
-    <header id="header">
-      <div class="logo">
-        <img id="header-img"
-        src="https://tinyurl.com/yd8t7o4b"
-        alt="Rybko Inc. logo (small fish)" />
-      </div>
-      <nav id="nav-bar">
-        <ul class="nav_links">
-          <li><a href="#fish-species">Fish Species</a></li>
-          <li><a href="#aquariums">Aquariums</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="sign-up">
-      <h2>For exciting fish related news, please sign up to our newsletter:</h2>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input
-          name="email"
-          id="email"
-          type="email"
-          placeholder="E.g. ilovefishsticks@rybko.com"
-        />
-        <input
-          type="submit"
-          name="submit"
-          value="Yes please, sign me up!"
-          class="sign-up-button"
-        />
-      </form>
-    </section>
-    <div class="container">
+    <main>
+      <header id="header">
+        <div class="logo">
+          <img id="header-img"
+          src="https://tinyurl.com/yd8t7o4b"
+          alt="Rybko Inc. logo (small fish)" />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li class="nav-link"><a href="#fish-species">Fish Species</a></li>
+            <li class="nav-link"><a href="#aquariums">Aquariums</a></li>
+            <li class="nav-link"><a href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="sign-up">
+        <h2>For exciting fish related news, please sign up to our newsletter:</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="E.g. ilovefishsticks@rybko.com"
+          />
+          <input
+            type="submit"
+            name="submit"
+            id="submit"
+            value="Yes please, sign me up!"
+            class="sign-up-button"
+          />
+        </form>
+      </section>
       <section id="fish-species">
-        <div class="grid">
-          <div class="icon">
-            <img alt="Picture of an Arapaima."
-            src="https://tinyurl.com/y8xuffvt" />
+          <div class="grid">
+            <div class="icon">
+              <img alt="Picture of an Arapaima."
+              src="https://tinyurl.com/y8xuffvt" />
+            </div>
+            <div class="description">
+              <h2><a href="https://en.wikipedia.org/wiki/Arapaima">
+                Arapaima</a></h2>
+              <p>The Arapiama is the largest freshwater fish...</p>
+            </div>
           </div>
-          <div class="description">
-            <h2><a href="https://en.wikipedia.org/wiki/Arapaima">
-              Arapaima</a></h2>
-            <p>The Arapiama is the largest freshwater fish...</p>
+          <div class="grid">
+            <div class="icon">
+              <img alt="Picture of a Coelacanth."
+              src="https://tinyurl.com/ydb3jdfm" />
+            </div>
+            <div class="description">
+              <h2><a href="https://en.wikipedia.org/wiki/Coelacanth">
+                Coelacanth</a></h2>
+              <p>Sometimes refered to as the "living fossil" fish, Coelacanth...</p>
+            </div>
           </div>
-        </div>
-        <div class="grid">
-          <div class="icon">
-            <img alt="Picture of a Coelacanth."
-            src="https://tinyurl.com/ydb3jdfm" />
+          <div class="grid">
+            <div class="icon">
+              <img alt="Picture of a Dorado."
+              src="https://tinyurl.com/ycqhy6mc" />
+            </div>
+            <div class="description">
+              <h2><a href="https://en.wikipedia.org/wiki/Salminus_brasiliensis">
+                Dorado</a></h2>
+              <p>A popular sport fish, Dorado are known for their golden sclaes...</p>
+            </div>
           </div>
-          <div class="description">
-            <h2><a href="https://en.wikipedia.org/wiki/Coelacanth">
-              Coelacanth</a></h2>
-            <p>Sometimes refered to as the "living fossil" fish, Coelacanth...</p>
+          <div class="grid">
+            <div class="icon">
+              <img alt="Picture of an Oarfish."
+              src="https://tinyurl.com/y7xqrzc6" />
+            </div>
+            <div class="description">
+              <h2><a href="https://en.wikipedia.org/wiki/Oarfish">
+                Oarfish</a></h2>
+              <p>A mysterious deep-water fish, not much is known about the Oarfish.</p>
+            </div>
           </div>
-        </div>
-        <div class="grid">
-          <div class="icon">
-            <img alt="Picture of a Dorado."
-            src="https://tinyurl.com/ycqhy6mc" />
-          </div>
-          <div class="description">
-            <h2><a href="https://en.wikipedia.org/wiki/Salminus_brasiliensis">
-              Dorado</a></h2>
-            <p>A popular sport fish, Dorado are known for their golden sclaes...</p>
-          </div>
-        </div>
-        <div class="grid">
-          <div class="icon">
-            <img alt="Picture of an Oarfish."
-            src="https://tinyurl.com/y7xqrzc6" />
-          </div>
-          <div class="description">
-            <h2><a href="https://en.wikipedia.org/wiki/Oarfish">
-              Oarfish</a></h2>
-            <p>A mysterious deep-water fish, not much is known about the Oarfish.</p>
-          </div>
-        </div>
-      </section>
+        </section>
       <section id="aquariums">
-        <iframe id="video" height="315"
-        src="https://www.youtube.com/watch?v=zJ7hUvU-d2Q"></iframe>
-      </section>
-    </div>
+          <iframe id="video" width="560" height="315"
+          src="https://www.youtube.com/embed/zJ7hUvU-d2Q"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+          gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+      <section id="pricing">
+          <iframe src="https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"
+          height="500" width="80%">
+          </iframe>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
   </body>
 </html>

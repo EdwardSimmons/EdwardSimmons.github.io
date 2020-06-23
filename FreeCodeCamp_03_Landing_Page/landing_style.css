@@ -2,8 +2,10 @@
   font-family: Helvetica, sans-serif;
 }
 
-@media (max-width: 560px) {
-
+@media (max-width: 600px) {
+  body {
+    color: blue;
+  }
 }
 
 header {
@@ -18,12 +20,15 @@ header {
   background-color: #fff5e6;
 }
 
-.nav_links {
-  list-style-type: none;
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
 }
 
-.nav_links li {
-  display: inline-block;
+.nav-link {
+  list-style-type: none;
+  display: inline-flex;
   padding: 0px 20px;
 }
 
@@ -58,11 +63,6 @@ header {
   margin: 1.68em
 }
 
-.container {
-  width: 100%;
-  margin: 20px 0;
-}
-
 .grid {
   display: flex;
   flex-direction: row;
@@ -75,7 +75,7 @@ header {
   justify-content: center;
   height: 125px;
   width: 10vw;
-  margin-left: 30vw;
+  margin-left: 15vw;
 }
 
 .description {
@@ -96,6 +96,12 @@ p {
 }
 
 #aquariums {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+#pricing {
   display: flex;
   justify-content: center;
   margin: 20px auto;
