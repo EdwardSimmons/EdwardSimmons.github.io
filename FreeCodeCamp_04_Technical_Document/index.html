@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Introduction to Python</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Introduction to Python</header>
+      <ul>
+        <li><a href="#Preface" class="nav-link">Preface</a></li>
+        <li><a href="#Your_First_Python_Program" class="nav-link">Your First
+          Python Program</a></li>
+        <li><a href="#Data_Types_in_Python" class="nav-link">Data Types in
+          Python</a></li>
+        <li><a href="#Declaring_Variables" class="nav-link">Declaring Variables
+          </a></li>
+        <li><a href="#Arithmetic_Operators" class="nav-link">Arithmetic
+          Operators</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Preface">
+        <header>Preface</header>
+        <article>
+          <p>This page is intended to act as an introductory guide to the world
+            of the Python programming language. Python was developed in the late
+            1980s/ early 1990s by a Dutch programmer called Guido Van Rossum,
+            who has since maintained the title "Benevolent Dictator for Life"
+            thanks to his continued involvement in its development.
+          </p>
+          <p>Python is an object-oriented, interpreted language. Fear not, dear
+            reader, if those terms are alien to you - both will be covered by
+            this page (and you can navigate to either of those sections by
+            using the sidebar).
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Your_First_Python_Program">
+        <header>Your First Python Program</header>
+        <article>
+          <p>It's tradition in computer programming that the first piece of code
+            that you write in any given language is a "Hello World!" program - a
+            simple program that prints the phrase "Hello, World!" to the
+            terminal window. This tradition is nearly as old as programming
+            itself! Using "Hello World!" as a test message was influenced by an
+            example program in the seminal 1978 book <em>'The C Programming
+            Language'</em>.
+          </p>
+          <p>In Python, this task is incredibly simple (provided you have
+            installed Python on your computer and have access to a text editor
+            and a Python interpreter) as, in Python, it can be written in one
+            line:
+            <code> print("Hello, World!") </code>
+            It doesn't get much simpler than that! Simplicity is one of the
+            fundamental characteristics of Python as well as being one of the
+            foundations upon which it was written, and is a large factor in
+            its global popularity.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Data_Types_in_Python">
+        <header>Data Types in Python</header>
+        <article>
+          <p>There are 4 fundamental data types in Python:
+            <ul>
+              <li>Numbers</li>
+              <li>Sequences</li>
+              <li>Booleans</li>
+              <li>Dictionaries</li>
+            </ul>
+            Each of these data types contain subsets that are very distinct, and
+            that are fundamental to the basic funtional workings of Python.
+          </p>
+          <h3>Numbers</h3>
+          <P>There are three types of numbers in Python:
+            <ul>
+              <li>Intergers:
+                <code>1, 2, 3, 4, 5...</code></li>
+              <li>Floating Point Numbers (a.k.a. "Floats"):
+                <code>1.0, 2.0, 3.0, 4.0, 5.0...</code></li>
+              <li>Complex Numbers:
+                <code>x + yj</code> where <code style="display: inline">j</code>
+                is the square root of -1, eg:
+                <code>1 + 2j</code></li>
+            </ul>
+          </p>
+          <h3>Sequences</h3>
+          <p>There are also three types of sequence in Python. They're called
+            "sequences" because Python can use each of these data types as
+            iterables in loops, i.e. Python will accept these data types as
+            instructions when executing code that loops around, such as an
+            algorhithm. They are:
+            <ul>
+              <li>Strings:
+                <code>"Hello World!"</code></li>
+              <li>Lists:
+                <code>[1.0, 2.0, 3.0]</code></li>
+              <li>Tuples:
+                <code>(1,2,3)</code></li>
+            </ul>
+          </p>
+          <p>They can be of any length, or even be empty. Strings and Lists are
+            mutable, whereas Tuples are immutable, i.e. Tuples cannot be changed
+            or amended.<p>
+          <h3>Booleans</h3>
+          <p>A Boolean value is one of the fundamental aspects of computer
+            programming. They can only take one of two values:
+            <code>True</code> or <code>False</code>
+            Python can also treat booleans numerically, in which case:
+            <code>True == 1</code> and <code>False == 0</code>
+          </p>
+          <h3>Dictionaries</h3>
+          <p>A Dictionary is a unique data type that acts as, you gussed it, a
+            dictionary which contains any number of key:value pairs that the
+            user can utilise in order to translate any of their variables.</p>
+          <p>Dictionaries are declared in the following way:
+            <code> dict = {cat: kot, dog: pies, lion: lew}</code>
+            This dictionary effectively acts as an English-to-Polish translator.
+            Sending the word "dog" to the dictionary results in the word "lew"
+            being returned.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Declaring_Variables">
+        <header>Declaring Variables</header>
+        <article>
+          <p>So, now that you know what the 4 main data types are, you may be
+            wondering "how do I store any of these data types?". How astute! The
+            answer, reader dear, is variables.</p>
+          <p>We have in fact already discussed a variable. In my definition of
+            the Dictionary data type, you may have noticed that I used the word
+            "declared" when I gave an example of a Dictionary. Declaration is
+            the process by which we create variables in Python. Variables are
+            declared by using the <code style="display: inline">=</code>
+            operator. For example, if I wanted to store a pythagorean triple
+            called <code style="display: inline">py_tup</code> as a Tuple, I
+            would type:
+            <code>py_tup = (3.0, 4.0, 5.0)</code></p>
+          <p>Variables are the bread and butter of modern computing.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Arithmetic_Operators">
+        <header>Arithmetic Operators</header>
+        <article>
+          <p>Again, I've sneakily already inroduced you to an arithmetic
+            operator, so they can't be too difficult to understand right? These
+            handy symbols are how you as the user explain to Python what you
+            want to happen in any given operation. They can also be used in
+            logical tests (which is the example you've seen), as well as some
+            string manipulations. Let's go through them:
+            <ul style="list-style-type: none">
+              <li><code style="display: inline">==  </code> is equal to</li>
+              <li><code style="display: inline">!=  </code> is not equal to</li>
+              <li><code style="display: inline"> >  </code> greater than</li>
+              <li><code style="display: inline">>=  </code> greater than or
+              equal to</li>
+              <li><code style="display: inline"> <  </code> less than</li>
+              <li><code style="display: inline"><=  </code> less than or equal
+              to</li>
+              <li><code style="display: inline"> +  </code> addition</li>
+              <li><code style="display: inline"> -  </code> subtraction</li>
+              <li><code style="display: inline"> *  </code> multiplication</li>
+              <li><code style="display: inline"> /  </code> division</li>
+              <li><code style="display: inline">//  </code> integer or floor
+                division</li>
+              <li><code style="display: inline">**  </code> to the power of</li>
+        </article>
+      </section>
+    </main>
+    <script
+    src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+  </body>
+</html>
