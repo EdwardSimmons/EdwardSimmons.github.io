@@ -1,7 +1,24 @@
+:root {
+  --rybko-deep-blue: #5680e9;
+  --rybko-mid-blue: #5ab9ea;
+  --rybko-light-blue: #84ceeb;
+  --rybko-lilac: #c1c8e4;
+  --rybko-purple: #8860d0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-  width: 100%;
-  margin: 1.618rem auto 0 auto;
-  background-color: rgba(155, 128, 188, 0.77)
+  margin: 0;
+  background-color: var(--rybko-light-blue);
   padding: 1.61rem;
 }
 
@@ -47,23 +64,25 @@ p {
 }
 
 form {
-  background: rgba(76, 45, 113, 0.9);
-  padding: 2.5rem 0.6rem;
+  background-color: var(--rybko-purple);
+  padding: 0.5rem 1rem;
+  margin: 1.6rem;
   border-radius: 0.5rem;
 }
 
 .form-group {
-  margin: 0 3rem 1.618rem 2rem;
+  margin: 1.618rem;
   padding: 0.25rem;
+  color: white;
 }
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 96%;
   height: 2.375rem;
   padding: 0.375rem 0.75rem;
-  color: #495057;
-  background-color: #fff;
+  margin: 0.375rem;
+  background-color: var(--rybko-lilac);
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -72,15 +91,13 @@ form {
   font-weight: light;
 }
 
-.input-radio,
-.input-checkbox {
-  color: white;
-}
-
 .input-textbox {
   min-height: 120px;
-  width: 100%;
+  width: 97.7%;
   padding: 0.6rem;
+  background-color: var(--rybko-lilac);
+  border-radius: 10px;
+  border-color: var(--rybko-lilac);
   resize: vertical;
 }
 
@@ -89,6 +106,8 @@ form {
   width: 100%;
   height: 5rem;
   padding: 0.2rem;
-  background-color: green;
-  font-size: 3rem;
+  background-color: var(--rybko-deep-blue);
+  border-color: var(--rybko-deep-blue);
+  font-size: 2rem;
+  border-radius: 10px;
 }
