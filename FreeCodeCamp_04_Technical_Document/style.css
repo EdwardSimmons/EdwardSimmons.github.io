@@ -1,21 +1,35 @@
-* {
-  font-family: "Helvetica", sans-serif;
+:root {
+  --py-blue: #05386b;
+  --py-dark-green: #379683;
+  --py-mint-green: #5cdb95;
+  --py-light-green: #8ee4af;
+  --py-beige: #edf5e1;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
   line-height: 1.6;
+}
+
+body {
+  margin: 0;
 }
 
 #navbar {
   position: fixed;
   top: 0px;
   left: 0px;
-  padding-top: 7px;
   width: 315px;
+  height: 100vh;
+  background-color: var(--py-mint-green);
 }
 #navbar ul {
   padding: 0;
-  overflow: scroll;
 }
 #navbar li {
   border-top: 1px solid;
+  border-color: var(--py-dark-green);
   list-style: none;
   position: relative;
   width: 100%;
@@ -23,7 +37,7 @@
 #navbar a {
   display: block;
   padding: 10px 10px;
-  color: grey;
+  color: var(--py-beige);
   text-decoration: none;
   cursor: pointer;
 }
@@ -32,7 +46,7 @@
   position: absolute;
   margin-left: 310px;
   padding: 0px 20px 20px 20px;
-  margin-bottom: 20px;
+  background-color: var(--py-beige);
 }
 
 @media (max-width: 650px) {
@@ -40,6 +54,7 @@
     position: absolute;
     width: 100%;
     height: 300px;
+    overflow: scroll;
   }
   #main-doc {
     width: 100%;
@@ -51,7 +66,7 @@
 }
 
 header {
-  color: red;
+  color: var(--py-blue);
   margin: 10px;
   text-align: center;
   font-size: 1.8em;
@@ -60,12 +75,28 @@ header {
 
 #main-doc header {
   text-align: left;
+  margin-left: 0;
+}
+
+header::before {
+  display: block;
+  content: " ";
+  margin-top: -10px;
+  height: 10px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+h3 {
+  color: var(--py-blue);
+  font-weight: thin;
 }
 
 code {
   display: block;
   white-space: pre;
   font-family: monospace;
+  color: var(--py-dark-green);
   margin: 1em;
   padding: 1em;
   font-size: 1.2em;
