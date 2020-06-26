@@ -3,27 +3,31 @@
   text-align: center;
   width: 100%;
   background: #E5EBF5;
-  row-gap: 20px;
-  grid-template-rows: auto auto 1fr auto auto;
   border-radius: 10px;
 }
 
 #title {
   color: #859FD1;
   font-weight: bold;
-  margin: 10px auto none auto;
+  margin: 10px auto 0px auto;
   font-size: 4em;
+  padding-top: 0.5em;
 }
 
 p1 {
   padding-bottom: 20px;
+  margin: 20px;
   font-weight: lighter;
 }
 
 #img-div {
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: #131B2A;
   padding: 10px;
   border-radius: 10px;
+  margin: 20px auto 0px;
+  max-width: 1200px;
 }
 
 #image {
@@ -31,15 +35,14 @@ p1 {
   display: block;
   height: auto;
   border-radius: 10px;
-  margin: 0 auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+  margin: 0 2fr;
 }
 
 #img-caption {
-  color: #E5EBF5;
+  background-color: #E5EBF5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 0.5em;
 }
 
 #tribute-info {
