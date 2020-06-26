@@ -117,11 +117,11 @@ a {
   display: block;
   border-radius: 0.5rem;
   background-color: var(--salmon-light);
+  transition: all 0.3s;
 }
 
-.project-tilek:hover {
+.project-tile:hover {
   background-color: var(--salmon-dark);
-  transition: background-color 0.3s ease-out;
 }
 
 /* Contact Section */
@@ -159,7 +159,7 @@ a {
 
 .contact-link {
   color: var(--base-beige);
-  transition: font-size 1s, color 1s;
+  transition: all 1s;
 }
 
 .contact-link:hover {
