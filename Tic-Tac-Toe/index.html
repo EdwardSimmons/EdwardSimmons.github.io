@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <tr>
+          <td class="cell" id="0"></td>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
+        </tr
+        <tr>
+          <td class="cell" id="6"></td>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
+        </tr>
+      </table>
+      <button type="button"
+              name="play-again"
+              id="play-again"
+              onclick="startGame()">Play again
+      </button>
+      <div class="end-game-box">
+        <div class="end-game-text"></div>
+      </div>
+      <div class="win-strikes-group" id="win-strikes-group">
+        <div class="win-strike" id="win-1"></div>
+        <div class="win-strike" id="win-2"></div>
+        <div class="win-strike" id="win-3"></div>
+        <div class="win-strike" id="win-4"></div>
+        <div class="win-strike" id="win-5"></div>
+        <div class="win-strike" id="win-6"></div>
+        <div class="win-strike" id="win-7"></div>
+        <div class="win-strike" id="win-8"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

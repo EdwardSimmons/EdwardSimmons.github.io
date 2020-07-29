@@ -1,0 +1,103 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 450px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  border: 2px solid black;
+  height: 125px;
+  width: 125px;
+  margin: 0 37.5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 6rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+table tr:first-child td {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child {
+  border-left: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+.end-game-box {
+  display: block;
+  height: 100px;
+  width: 400px;
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
+  background-color: black;
+  color: white;
+  transform: translateY(-250px);
+  border-radius: 1rem;
+  display: none;
+}
+
+.win-strikes-group {
+  display: block;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  z-index: -1;
+}
+
+.win-strike {
+  display: none;
+  position: absolute;
+  background: black;
+  height: 10px;
+  width: 400px;
+  border-radius: 0.5rem;
+}
+#win-1 {
+  transform: translateY(67.5px);
+}
+#win-2 {
+  transform: translateY(197.5px);
+}
+#win-3 {
+  transform: translateY(327.5px);
+}
+#win-4 {
+  transform: translateY(197.5px) rotateZ(45deg) scaleX(1.3);
+}
+#win-5 {
+  transform: translateY(197.5px) rotateZ(135deg) scaleX(1.3);
+}
+#win-6 {
+  transform: translateY(197.5px) rotateZ(90deg);
+}
+#win-7 {
+  transform: translateX(128.5px) translateY(197.5px) rotateZ(90deg);
+}
+#win-8 {
+  transform: translateX(-128.5px) translateY(197.5px) rotateZ(90deg);
+}
+
+#play-again {
+  position: absolute;
+  margin-top: 300px;
+}
